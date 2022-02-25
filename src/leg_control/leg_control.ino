@@ -27,6 +27,7 @@ void setup() {
 
 void loop() {
   int serial_readable_count = 0;
+  bool is_command_received = false;
   serial_readable_count = Serial.available();
   if( serial_readable_count > 0 ) {
     for( int i=0;i<serial_readable_count; i++ ) {
@@ -35,6 +36,7 @@ void loop() {
         if( cli_string[cli_string_index]=='\n' ) {
           cli_string[cli_string_index] = '\0';
           cli_string_index = 0;
+          is_command_received = true;
           break;
         }
         cli_string_index ++;
@@ -47,14 +49,17 @@ void loop() {
     }
   }
 
-  String recv_string = String(cli_string);
+  if( is_command_received==true ) {
+    String recv_string = String(cli_string);
 
-  if( recv_string.startsWith("test",0)==true ) {
-    Serial.println("test reveiced");
-  } else if ( recv_string.startsWith("stop",0)==true ) {
-    mode = STOP;
-  } else if ( recv_string.startsWith("move",0)==true ) {
-    mode = MOVE;
+    if( recv_string.startsWith("test",0)==true ) {
+      Serial.println("test reveiced");
+    } else if ( recv_string.startsWith("stop",0)==true ) {
+      mode = STOP;
+    } else if ( recv_string.startsWith("move",0)==true ) {
+      mode = MOVE;
+    }
+
   }
 
   if( mode==MOVE ) {
