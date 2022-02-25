@@ -14,9 +14,12 @@ int angle;   // variable to hold the angle for the servo motor
 
 enum MODE {
   STOP,
-  MOVE
+  MOVE,
+  POS
 };
 MODE mode = STOP;
+
+int target_pos = 0;
 
 void setup() {
   myServo1.attach(9); // attaches the servo on pin 9 to the servo object
@@ -28,6 +31,7 @@ void setup() {
 void loop() {
   int serial_readable_count = 0;
   bool is_command_received = false;
+
   serial_readable_count = Serial.available();
   if( serial_readable_count > 0 ) {
     for( int i=0;i<serial_readable_count; i++ ) {
@@ -58,6 +62,10 @@ void loop() {
       mode = STOP;
     } else if ( recv_string.startsWith("move",0)==true ) {
       mode = MOVE;
+    } else if ( recv_string.startsWith("pos",0)==true ) {
+      strtok(cli_string," ");
+      target_pos = atoi(strtok(NULL," "));
+      mode = POS;
     }
 
   }
@@ -78,6 +86,9 @@ void loop() {
     myServo2.write(179);
 
     delay(waitTime);
+  } else if ( mode==POS ) {
+    myServo1.write(target_pos);
+    myServo2.write(180-target_pos);
   }
 
 }
