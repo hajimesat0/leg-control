@@ -22,8 +22,8 @@ MODE mode = STOP;
 int target_pos = 0;
 
 void setup() {
-  myServo1.attach(9); // attaches the servo on pin 9 to the servo object
-  myServo2.attach(10); // attaches the servo on pin 9 to the servo object
+  myServo1.attach(9,750,2250); // attaches the servo on pin 9 to the servo object
+  myServo2.attach(10,750,2250); // attaches the servo on pin 9 to the servo object
   Serial.begin(9600); // open a serial connection to your computer
   Serial.println("start");
 }
