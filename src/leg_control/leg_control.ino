@@ -6,6 +6,8 @@ Servo myServo2;  // create a servo object
 int const recv_size_max = 16;
 char cli_string[recv_size_max] = {};
 int cli_string_index = 0;
+int up_angle = 170;
+int down_angle = 180;
 
 //int const potPin = A0; // analog pin used to connect the potentiometer
 int const waitTime = 125;
@@ -15,7 +17,8 @@ int angle;   // variable to hold the angle for the servo motor
 enum MODE {
   STOP,
   MOVE,
-  POS
+  POS,
+  UP_DOWN
 };
 MODE mode = STOP;
 
@@ -66,8 +69,12 @@ void loop() {
       strtok(cli_string," ");
       target_pos = atoi(strtok(NULL," "));
       mode = POS;
+    } else if ( recv_string.startsWith("ud",0)==true ) {
+      strtok(cli_string," ");
+      up_angle = atoi(strtok(NULL," "));
+      down_angle = atoi(strtok(NULL," "));
+      mode = UP_DOWN;
     }
-
   }
 
   if( mode==MOVE ) {
@@ -89,6 +96,13 @@ void loop() {
   } else if ( mode==POS ) {
     myServo1.write(target_pos);
     myServo2.write(180-target_pos);
+  } else if ( mode==UP_DOWN ) {
+    myServo1.write(up_angle);
+    myServo2.write(180-up_angle);
+    delay(waitTime);
+    myServo1.write(down_angle);
+    myServo2.write(180-down_angle);
+    delay(waitTime);
   }
 
 }
