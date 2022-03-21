@@ -1,0 +1,415 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="641px" height="497px" viewBox="-0.5 -0.5 641 497" content="&lt;mxfile&gt;&lt;diagram id=&quot;svcamLj9RTxPaFNn81xq&quot; name=&quot;ページ1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+            div.MathJax_SVG_Display { position: static; }
+span.MathJax_SVG { position: static !important; }
+        </style>
+        <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+            .MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+        </style>
+        <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+            #MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+        </style>
+        <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+            .MathJax_Preview .MJXf-math {color: inherit!important}
+        </style>
+        <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+            #MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+        </style>
+        <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+            .MathJax_Preview {color: #888; display: contents}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+        </style>
+        <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+            .MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom &gt; * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd &gt; * {display: block!important}
+.MJXp-script-box &gt; *  {display: table!important; height: 50%}
+.MJXp-script-box &gt; * &gt; * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box &gt; *:last-child &gt; * {vertical-align: bottom}
+.MJXp-script-box &gt; * &gt; * &gt; * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over &gt; * {display: block!important}
+.MJXp-munderover &gt; *, .MJXp-munder &gt; * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable &gt; * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr &gt; .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child &gt; .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr &gt; .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child &gt; .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+        </style>
+        <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+            .MathJax_SVG_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax_SVG .MJX-monospace {font-family: monospace}
+.MathJax_SVG .MJX-sans-serif {font-family: sans-serif}
+#MathJax_SVG_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax_SVG {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax_SVG * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_SVG &gt; div {display: inline-block}
+.mjx-svg-href {fill: blue; stroke: blue}
+.MathJax_SVG_Processing {visibility: hidden; position: absolute; top: 0; left: 0; width: 0; height: 0; overflow: hidden; display: block!important}
+.MathJax_SVG_Processed {display: none!important}
+.MathJax_SVG_test {font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.MathJax_SVG_test.mjx-test-display {display: table!important}
+.MathJax_SVG_test.mjx-test-inline {display: inline!important; margin-right: -1px}
+.MathJax_SVG_test.mjx-test-default {display: block!important; clear: both}
+.MathJax_SVG_ex_box {display: inline-block!important; position: absolute; overflow: hidden; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0; width: 1px; height: 60ex}
+.mjx-test-inline .MathJax_SVG_left_box {display: inline-block; width: 0; float: left}
+.mjx-test-inline .MathJax_SVG_right_box {display: inline-block; width: 0; float: right}
+.mjx-test-display .MathJax_SVG_right_box {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax_SVG .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+        </style>
+    </defs>
+    <g>
+        <rect x="400" y="135" width="100" height="230" rx="15" ry="15" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <rect x="465" y="240" width="20" height="30" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <ellipse cx="405" cy="170" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <rect x="0" y="35" width="230" height="340" rx="9.2" ry="9.2" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,115,205)" pointer-events="none"/>
+        <rect x="200" y="55" width="20" height="200" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,210,155)" pointer-events="none"/>
+        <ellipse cx="205" cy="250" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,250)" pointer-events="none"/>
+        <ellipse cx="205" cy="240" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,240)" pointer-events="none"/>
+        <ellipse cx="205" cy="230" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,230)" pointer-events="none"/>
+        <ellipse cx="205" cy="220" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,220)" pointer-events="none"/>
+        <ellipse cx="205" cy="210" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,210)" pointer-events="none"/>
+        <ellipse cx="205" cy="200" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,200)" pointer-events="none"/>
+        <ellipse cx="205" cy="190" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,190)" pointer-events="none"/>
+        <ellipse cx="205" cy="180" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,180)" pointer-events="none"/>
+        <ellipse cx="205" cy="170" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,170)" pointer-events="none"/>
+        <ellipse cx="205" cy="160" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,160)" pointer-events="none"/>
+        <ellipse cx="205" cy="150" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,150)" pointer-events="none"/>
+        <ellipse cx="205" cy="140" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,140)" pointer-events="none"/>
+        <ellipse cx="205" cy="130" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,130)" pointer-events="none"/>
+        <ellipse cx="205" cy="120" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,120)" pointer-events="none"/>
+        <ellipse cx="205" cy="110" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,110)" pointer-events="none"/>
+        <ellipse cx="205" cy="100" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,100)" pointer-events="none"/>
+        <ellipse cx="205" cy="90" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,90)" pointer-events="none"/>
+        <ellipse cx="205" cy="80" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,80)" pointer-events="none"/>
+        <ellipse cx="205" cy="70" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,70)" pointer-events="none"/>
+        <ellipse cx="205" cy="60" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,205,60)" pointer-events="none"/>
+        <ellipse cx="215" cy="250" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,250)" pointer-events="none"/>
+        <ellipse cx="215" cy="240" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,240)" pointer-events="none"/>
+        <ellipse cx="215" cy="230" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,230)" pointer-events="none"/>
+        <ellipse cx="215" cy="220" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,220)" pointer-events="none"/>
+        <ellipse cx="215" cy="210" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,210)" pointer-events="none"/>
+        <ellipse cx="215" cy="200" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,200)" pointer-events="none"/>
+        <ellipse cx="215" cy="190" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,190)" pointer-events="none"/>
+        <ellipse cx="215" cy="180" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,180)" pointer-events="none"/>
+        <ellipse cx="215" cy="170" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,170)" pointer-events="none"/>
+        <ellipse cx="215" cy="160" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,160)" pointer-events="none"/>
+        <ellipse cx="215" cy="150" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,150)" pointer-events="none"/>
+        <ellipse cx="215" cy="140" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,140)" pointer-events="none"/>
+        <ellipse cx="215" cy="130" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,130)" pointer-events="none"/>
+        <ellipse cx="215" cy="120" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,120)" pointer-events="none"/>
+        <ellipse cx="215" cy="110" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,110)" pointer-events="none"/>
+        <ellipse cx="215" cy="100" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,100)" pointer-events="none"/>
+        <ellipse cx="215" cy="90" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,90)" pointer-events="none"/>
+        <ellipse cx="215" cy="80" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,80)" pointer-events="none"/>
+        <ellipse cx="215" cy="70" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,70)" pointer-events="none"/>
+        <ellipse cx="215" cy="60" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,215,60)" pointer-events="none"/>
+        <rect x="160" y="295" width="60" height="80" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,190,335)" pointer-events="none"/>
+        <ellipse cx="175" cy="270" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,175,270)" pointer-events="none"/>
+        <ellipse cx="175" cy="260" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,175,260)" pointer-events="none"/>
+        <ellipse cx="185" cy="270" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,185,270)" pointer-events="none"/>
+        <ellipse cx="185" cy="260" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,185,260)" pointer-events="none"/>
+        <rect x="90" y="295" width="60" height="80" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,120,335)" pointer-events="none"/>
+        <rect x="10" y="275" width="70" height="100" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" transform="rotate(-180,45,325)" pointer-events="none"/>
+        <ellipse cx="415" cy="170" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="475" cy="200" rx="15" ry="15" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="180" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="180" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="180" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="190" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="190" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="190" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="200" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="200" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="200" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="220" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="220" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="220" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="230" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="230" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="230" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="240" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="240" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="240" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="250" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="250" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="250" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="270" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="270" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="270" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="280" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="280" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="280" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="290" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="290" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="290" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="300" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="300" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="300" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="320" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="320" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="320" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="330" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="330" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="330" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="340" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="340" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="340" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="405" cy="350" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="415" cy="350" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="350" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="475" cy="250" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="475" cy="260" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="425" cy="170" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <path d="M 430 145 L 430 85" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 440 145 L 440 85" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 450 145 L 450 85" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 460 145 L 460 85" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 470 145 L 470 85" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="430" cy="80" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="440" cy="80" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="460" cy="80" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="450" cy="80" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="470" cy="80" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <path d="M 220 120 L 350 120 Q 360 120 360 110 L 360 45 Q 360 35 370 35 L 460 35 Q 470 35 470 45 L 470 75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 120px; margin-left: 311px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                GND
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="311" y="124" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    GND
+                </text>
+            </switch>
+        </g>
+        <path d="M 200 80 L 170 80 Q 160 80 160 70 L 160 15 Q 160 5 170 5 L 440 5 Q 450 5 450 15 L 450 75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 5px; margin-left: 335px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                SCL
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="335" y="9" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    SCL
+                </text>
+            </switch>
+        </g>
+        <path d="M 200 70 L 180 70 Q 170 70 170 60 L 170 25 Q 170 15 180 15 L 430 15 Q 440 15 440 25 L 440 75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 14px; margin-left: 293px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                SDA
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="293" y="18" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    SDA
+                </text>
+            </switch>
+        </g>
+        <path d="M 200 60 L 190 60 Q 180 60 180 50 L 180 35 Q 180 25 190 25 L 420 25 Q 430 25 430 35 L 430 75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 25px; margin-left: 317px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                VCC
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="317" y="29" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    VCC
+                </text>
+            </switch>
+        </g>
+        <rect x="520" y="435" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <rect x="520" y="415" width="60" height="10" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <rect x="530" y="425" width="20" height="10" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="485" cy="460" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="485" cy="470" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <ellipse cx="485" cy="480" rx="5" ry="5" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="none"/>
+        <path d="M 480 460 L 435 460 Q 425 460 425 450 L 425 355" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 438px; margin-left: 425px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                黄
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="425" y="441" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    黄
+                </text>
+            </switch>
+        </g>
+        <path d="M 480 470 L 425 470 Q 415 470 415 460 L 415 355" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 418px; margin-left: 415px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                赤
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="415" y="421" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    赤
+                </text>
+            </switch>
+        </g>
+        <path d="M 480 480 L 415 480 Q 405 480 405 470 L 405 355" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 399px; margin-left: 405px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                黒
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="405" y="402" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    黒
+                </text>
+            </switch>
+        </g>
+        <path d="M 480 250 L 560 250" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 250px; margin-left: 536px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                V+
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="536" y="254" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    V+
+                </text>
+            </switch>
+        </g>
+        <path d="M 480 260 L 560 260" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 260px; margin-left: 521px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; background-color: rgb(255, 255, 255); white-space: nowrap;">
+                                V-
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="521" y="264" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    V-
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
