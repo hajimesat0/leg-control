@@ -35,6 +35,13 @@ sudo apt-get install i2c-tools
 sudo i2cdetect -y 1
 ```
 
+* SG90の稼働域
+  * 120step-361step-602step
+
+* 脚稼働時のモーター稼働域
+  * 30deg-150deg
+
+
 ## 参考
 
 * [PICO-STDモーター仕様書](https://gwsus.com/gws_com_tw_www/english/product/servo/sat%20form.htm)
@@ -42,3 +49,5 @@ sudo i2cdetect -y 1
 * [raspi-configのインストール](https://askubuntu.com/questions/1130052/enable-i2c-on-raspberry-pi-ubuntu)
 * [I2C利用設定の有効化](https://qiita.com/fujit33/items/763b09a6e71e65519740)
 * [RaspiとPCA9685の接続](https://rb-station.com/blogs/article/pca9685-raspbery-pi-python)
+* [SG-90モーターのデューティー比設定](https://toyo-interest.com/news/iot%e3%83%a9%e3%82%ba%e3%83%99%e3%83%aa%e3%83%bc%e3%83%91%e3%82%a4%e3%81%a7%e3%82%b5%e3%83%bc%e3%83%9c%e3%83%89%e3%83%a9%e3%82%a4%e3%83%90pca9685%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%e3%81%bf%e3%82%8b/)
+
