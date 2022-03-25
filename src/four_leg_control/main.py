@@ -76,11 +76,17 @@ def thread_handler(event):
 if __name__ == '__main__':
     pwm = Adafruit_PCA9685.PCA9685(address=0x40)
     pwm.set_pwm_freq( 60 )
-    servo01 = ServoMotor( pwm, 0, 120, 602 )
-    servo01.set_angle_limit_deg( 30, 150 )
-    servo02 = ServoMotor( pwm, 1, 120, 602 )
-    servo02.set_angle_limit_deg( 30, 150 )
-    leg_front_left = Leg( servo01, servo02, 21.58, 40 )
+    motor = []
+    for i in range(8):
+        motor.append( ServoMotor( pwm, i, 120, 602 ) )
+    # servo01 = ServoMotor( pwm, 0, 120, 602 )
+    # servo01.set_angle_limit_deg( 30, 150 )
+    # servo02 = ServoMotor( pwm, 1, 120, 602 )
+    # servo02.set_angle_limit_deg( 30, 150 )
+    leg = []
+    for i in range(4):
+        n = 2 * i
+        leg.append( Leg( motor[n], motor[n+1], 21.58, 40 ) )
 
     global event
     event = threading.Event()
@@ -101,6 +107,8 @@ if __name__ == '__main__':
         #     axis_no = int(splited_command_str[1])
         #     axis_angle = int(splited_command_str[2])
         #     if 0<=axis_no and axis_no<8 :
+        else:
+            print('nothing to do for ['+command_str+']')
 
         # time.sleep(100)
 
