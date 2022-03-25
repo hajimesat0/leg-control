@@ -99,13 +99,18 @@ if __name__ == '__main__':
         command_str = raw_input('>> ')
         splited_command_str = command_str.split()
         # print( command_str.split() )
-        if splited_command_str[0]=='test':
-            print( 'test[' + command_str +']' )
-        # elif splited_command_str[0]=='motor' :
-        #     axis_no = int(splited_command_str[1])
-        #     axis_angle = int(splited_command_str[2])
-        #     if 0<=axis_no and axis_no<8 :
-        else:
+        exec_command = False
+        if 0<len(splited_command_str):
+            if splited_command_str[0]=='test':
+                print( 'test[' + command_str +']' )
+                exec_command = True
+            elif splited_command_str[0]=='motor' :
+                axis_no = int(splited_command_str[1])
+                axis_angle = int(splited_command_str[2])
+                if 0<=axis_no and axis_no<8 :
+                    motor[axis_no].set_angle_deg(axis_angle)
+                exec_command = True
+        if exec_command==False:
             print('nothing to do for ['+command_str+']')
 
         # time.sleep(100)
