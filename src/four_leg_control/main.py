@@ -2,6 +2,8 @@
 
 import time
 import math
+import signal
+import threading
 import Adafruit_PCA9685
 
 
@@ -62,6 +64,14 @@ class Leg:
         self.__servo_motor_outside.set_angle_deg(angle_outside)
         return True
 
+def signal_interrupt(arg1,arg2):
+    event.set()
+
+def thread_handler(event):
+    while True:
+        event.wait()
+        event.clear()
+        # print( time.time() )
 
 if __name__ == '__main__':
     pwm = Adafruit_PCA9685.PCA9685(address=0x40)
@@ -72,24 +82,40 @@ if __name__ == '__main__':
     servo02.set_angle_limit_deg( 30, 150 )
     leg_front_left = Leg( servo01, servo02, 21.58, 40 )
 
+    global event
+    event = threading.Event()
+    thread = threading.Thread( target=thread_handler, args=(event,))
+    thread.start()
+
+
+    signal.signal( signal.SIGALRM, signal_interrupt )
+    signal.setitimer( signal.ITIMER_REAL, 1, 0.05)
+
     while True:
-        angle = input('angle = ')
-        length = input('length = ')
-        leg_front_left.set_pose( angle, length )
+        command_str = raw_input('>> ')
+        splited_command_str = command_str.split()
+        # print( command_str.split() )
+        if splited_command_str[0]=='test':
+            print( 'test[' + command_str +']' )
+        # elif splited_command_str[0]=='motor' :
+        #     axis_no = int(splited_command_str[1])
+        #     axis_angle = int(splited_command_str[2])
+        #     if 0<=axis_no and axis_no<8 :
+
+        # time.sleep(100)
+
+    # while True:
+    #     command = input('command ( stop, pushup, walk ) = ')
+
+    #     length = input('length = ')
+    #     leg_front_left.set_pose( angle, length )
         # servo01.set_angle_deg( angle )
         # servo02.set_angle_deg( angle )
 
 
-# while True:
-#     step = input()
-#     print( 'step is ' + str(step) )
-#     for i in range(8):
-#         pwm.set_pwm(i,0,step)
-#         # pwm.set_pwm(i+8,0,step)
-
-# while True:
-#     pwm.set_pwm(15,0,150)
-#     time.sleep(wait_time)
-#     pwm.set_pwm(15,0,500)
-#     time.sleep(wait_time)
-#     print( '!' )
+    # while True:
+    #     angle = input('angle = ')
+    #     length = input('length = ')
+    #     leg_front_left.set_pose( angle, length )
+    #     # servo01.set_angle_deg( angle )
+    #     # servo02.set_angle_deg( angle )
