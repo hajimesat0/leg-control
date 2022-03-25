@@ -78,11 +78,9 @@ if __name__ == '__main__':
     pwm.set_pwm_freq( 60 )
     motor = []
     for i in range(8):
-        motor.append( ServoMotor( pwm, i, 120, 602 ) )
-    # servo01 = ServoMotor( pwm, 0, 120, 602 )
-    # servo01.set_angle_limit_deg( 30, 150 )
-    # servo02 = ServoMotor( pwm, 1, 120, 602 )
-    # servo02.set_angle_limit_deg( 30, 150 )
+        servo_motor = ServoMotor( pwm, i, 120, 602 )
+        servo_motor.set_angle_limit_deg( 30,150 )
+        motor.append( servo_motor )
     leg = []
     for i in range(4):
         n = 2 * i
