@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 
+from enum import Enum
 import time
 import math
 import signal
@@ -58,11 +59,49 @@ class Leg:
         angle_thigh = 2 * math.acos( cos_val )
         angle_inside = -( angle - math.degrees(angle_thigh/2) )
         angle_outside = angle + math.degrees(angle_thigh/2)
-        print('inside = ' + str(angle_inside) + '[deg]')
-        print('outside = ' + str(angle_outside) + '[deg]')
+        # print('inside = ' + str(angle_inside) + '[deg]')
+        # print('outside = ' + str(angle_outside) + '[deg]')
         self.__servo_motor_inside.set_angle_deg(angle_inside)
         self.__servo_motor_outside.set_angle_deg(angle_outside)
         return True
+
+class RobotState(Enum):
+    INIT = 0
+    READY_STOP = 1
+
+class RobotRequest(Enum):
+    NONE = 0
+    REQ_INIT = 1
+    REQ_READY_STOP = 2
+
+
+class Robot:
+    def __init__( self, leg_left_front, leg_right_front, leg_left_rear, leg_right_rear ):
+        self.__leg_left_front = leg_left_front
+        self.__leg_right_front = leg_right_front
+        self.__leg_left_rear = leg_left_rear
+        self.__leg_right_rear = leg_right_rear
+        self.__state = RobotState.INIT
+        self.__request = RobotRequest.NONE
+    
+    def execute( self ):
+        if self.__state==RobotState.INIT:
+            if self.__request==RobotRequest.REQ_READY_STOP:
+                self.__state = RobotState.READY_STOP
+        elif self.__state==RobotState.READY_STOP:
+            self.__leg_left_front.set_pose(0,33)
+            self.__leg_right_front.set_pose(0,33)
+            self.__leg_left_rear.set_pose(0,33)
+            self.__leg_right_rear.set_pose(0,33)
+            if self.__request==RobotRequest.REQ_INIT:
+                self.__state = RobotState.INIT
+    
+    def init( self ):
+        self.__request=RobotRequest.REQ_INIT
+
+    def ready_stop( self ):
+        self.__request=RobotRequest.REQ_READY_STOP
+
 
 def signal_interrupt(arg1,arg2):
     event.set()
@@ -71,6 +110,7 @@ def thread_handler(event):
     while True:
         event.wait()
         event.clear()
+        robot.execute()
         # print( time.time() )
 
 if __name__ == '__main__':
@@ -85,6 +125,8 @@ if __name__ == '__main__':
     for i in range(4):
         n = 2 * i
         leg.append( Leg( motor[n], motor[n+1], 21.58, 40 ) )
+    global robot
+    robot = Robot( leg[0], leg[1], leg[2], leg[3] )
 
     global event
     event = threading.Event()
@@ -115,7 +157,16 @@ if __name__ == '__main__':
                 leg_angle = int(splited_command_str[2])
                 leg_length = int(splited_command_str[3])
                 if 0<=leg_no and leg_no<4 :
+                    # print( 'pre:'+str(time.time()) )
                     leg[leg_no].set_pose(leg_angle,leg_length)
+                    # print( 'post:'+str(time.time()) )
+                exec_command = True
+            elif splited_command_str[0]=='robot' :
+                request = splited_command_str[1]
+                if request=='init':
+                    robot.init()
+                elif request=='ready':
+                    robot.ready_stop()
                 exec_command = True
         if exec_command==False:
             print('nothing to do for ['+command_str+']')
