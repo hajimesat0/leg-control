@@ -68,11 +68,13 @@ class Leg:
 class RobotState(Enum):
     INIT = 0
     READY_STOP = 1
+    WALK = 2
 
 class RobotRequest(Enum):
     NONE = 0
     REQ_INIT = 1
     REQ_READY_STOP = 2
+    REQ_WALK = 3
 
 
 class Robot:
@@ -83,6 +85,7 @@ class Robot:
         self.__leg_right_rear = leg_right_rear
         self.__state = RobotState.INIT
         self.__request = RobotRequest.NONE
+        walkに関するメンバ初期化を実装
     
     def execute( self ):
         if self.__state==RobotState.INIT:
@@ -95,12 +98,23 @@ class Robot:
             self.__leg_right_rear.set_pose(0,33)
             if self.__request==RobotRequest.REQ_INIT:
                 self.__state = RobotState.INIT
+            elif self.__request==RobotRequenst.REQ_WALK:
+                self.__state = RobotState.WALK
+        elif self.__state==RobotState.WALK:
+            ここへ前進動作経路生成を実装
     
     def init( self ):
         self.__request=RobotRequest.REQ_INIT
 
     def ready_stop( self ):
         self.__request=RobotRequest.REQ_READY_STOP
+    
+    def walk( self, freq, radius, height, phase ):
+        self.__walk_freq = freq
+        self.__walk_radius = radius
+        self.__walk_height = height
+        self.__walk_phase = phase
+        self.__request=RobotRequest.REQ_WALK
 
 
 def signal_interrupt(arg1,arg2):
@@ -167,6 +181,12 @@ if __name__ == '__main__':
                     robot.init()
                 elif request=='ready':
                     robot.ready_stop()
+                elif request=='walk':
+                    freq = splited_command_str[2]
+                    radius = splited_command_str[3]
+                    height = splited_command_str[4]
+                    phase = splited_command_str[5]
+                    robot.walk( freq, radius, height, phase )
                 exec_command = True
         if exec_command==False:
             print('nothing to do for ['+command_str+']')
