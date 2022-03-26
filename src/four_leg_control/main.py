@@ -110,6 +110,13 @@ if __name__ == '__main__':
                 if 0<=axis_no and axis_no<8 :
                     motor[axis_no].set_angle_deg(axis_angle)
                 exec_command = True
+            elif splited_command_str[0]=='leg' :
+                leg_no = int(splited_command_str[1])
+                leg_angle = int(splited_command_str[2])
+                leg_length = int(splited_command_str[3])
+                if 0<=leg_no and leg_no<4 :
+                    leg[leg_no].set_pose(leg_angle,leg_length)
+                exec_command = True
         if exec_command==False:
             print('nothing to do for ['+command_str+']')
 
