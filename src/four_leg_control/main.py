@@ -120,6 +120,9 @@ class Robot:
             l = math.sqrt( (h-y)**2 + x**2 )
             a = math.degrees( math.asin( x/l ) )
             self.__leg_left_front.set_pose(a,l)
+            # self.__leg_right_front.set_pose(a,l)
+            # self.__leg_left_rear.set_pose(a,l)
+            # self.__leg_right_rear.set_pose(a,l)
             if self.__request==RobotRequest.REQ_INIT:
                 next_state = RobotState.INIT
         
@@ -167,7 +170,7 @@ if __name__ == '__main__':
     pwm.set_pwm_freq( 60 )
     motor = []
     for i in range(8):
-        servo_motor = ServoMotor( pwm, i, 120, 602 )
+        servo_motor = ServoMotor( pwm, i*2, 120, 602 )
         servo_motor.set_angle_limit_deg( 30,150 )
         motor.append( servo_motor )
     leg = []
