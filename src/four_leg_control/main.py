@@ -78,30 +78,57 @@ class RobotRequest(Enum):
 
 
 class Robot:
-    def __init__( self, leg_left_front, leg_right_front, leg_left_rear, leg_right_rear ):
+    def __init__( self, leg_left_front, leg_right_front, leg_left_rear, leg_right_rear, time_interval ):
         self.__leg_left_front = leg_left_front
         self.__leg_right_front = leg_right_front
         self.__leg_left_rear = leg_left_rear
         self.__leg_right_rear = leg_right_rear
+        self.__time_interval = time_interval
+        self.__time_in_current_state = 0
         self.__state = RobotState.INIT
         self.__request = RobotRequest.NONE
-        walkに関するメンバ初期化を実装
+        self.__walk_param = WalkParameter()
     
     def execute( self ):
+        next_state = self.__state
         if self.__state==RobotState.INIT:
             if self.__request==RobotRequest.REQ_READY_STOP:
-                self.__state = RobotState.READY_STOP
+                next_state = RobotState.READY_STOP
         elif self.__state==RobotState.READY_STOP:
             self.__leg_left_front.set_pose(0,33)
             self.__leg_right_front.set_pose(0,33)
             self.__leg_left_rear.set_pose(0,33)
             self.__leg_right_rear.set_pose(0,33)
             if self.__request==RobotRequest.REQ_INIT:
-                self.__state = RobotState.INIT
-            elif self.__request==RobotRequenst.REQ_WALK:
-                self.__state = RobotState.WALK
+                next_state = RobotState.INIT
+            elif self.__request==RobotRequest.REQ_WALK:
+                next_state = RobotState.WALK
         elif self.__state==RobotState.WALK:
-            ここへ前進動作経路生成を実装
+            t = self.__time_in_current_state
+            f = self.__walk_param.freq
+            r = self.__walk_param.radius
+            h = self.__walk_param.height
+            p = math.radians(self.__walk_param.phase)
+            # print( t )
+            # print( f )
+            # print( r )
+            # print( h )
+            # print( p )
+            phi = 2 * math.pi * f * t + p * math.pi / 180
+            x = r * math.cos( phi )
+            y = r * math.sin( phi )
+            l = math.sqrt( (h-y)**2 + x**2 )
+            a = math.degrees( math.asin( x/l ) )
+            self.__leg_left_front.set_pose(a,l)
+            if self.__request==RobotRequest.REQ_INIT:
+                next_state = RobotState.INIT
+        
+        if self.__state!=next_state:
+            self.__time_in_current_state = 0
+            self.__state=next_state
+        else:
+            self.__time_in_current_state = self.__time_in_current_state + self.__time_interval
+
     
     def init( self ):
         self.__request=RobotRequest.REQ_INIT
@@ -110,12 +137,18 @@ class Robot:
         self.__request=RobotRequest.REQ_READY_STOP
     
     def walk( self, freq, radius, height, phase ):
-        self.__walk_freq = freq
-        self.__walk_radius = radius
-        self.__walk_height = height
-        self.__walk_phase = phase
+        self.__walk_param.freq = freq
+        self.__walk_param.radius = radius
+        self.__walk_param.height = height
+        self.__walk_param.phase = phase
         self.__request=RobotRequest.REQ_WALK
-
+        
+class WalkParameter:
+    def __init__( self ):
+        self.freq = 0
+        self.radius = 0
+        self.height = 0
+        self.phase = 0
 
 def signal_interrupt(arg1,arg2):
     event.set()
@@ -128,6 +161,8 @@ def thread_handler(event):
         # print( time.time() )
 
 if __name__ == '__main__':
+    periodic_interval = 0.05
+
     pwm = Adafruit_PCA9685.PCA9685(address=0x40)
     pwm.set_pwm_freq( 60 )
     motor = []
@@ -140,7 +175,7 @@ if __name__ == '__main__':
         n = 2 * i
         leg.append( Leg( motor[n], motor[n+1], 21.58, 40 ) )
     global robot
-    robot = Robot( leg[0], leg[1], leg[2], leg[3] )
+    robot = Robot( leg[0], leg[1], leg[2], leg[3], periodic_interval )
 
     global event
     event = threading.Event()
@@ -149,7 +184,7 @@ if __name__ == '__main__':
 
 
     signal.signal( signal.SIGALRM, signal_interrupt )
-    signal.setitimer( signal.ITIMER_REAL, 1, 0.05)
+    signal.setitimer( signal.ITIMER_REAL, 1, periodic_interval)
 
     while True:
         command_str = raw_input('>> ')
@@ -182,10 +217,10 @@ if __name__ == '__main__':
                 elif request=='ready':
                     robot.ready_stop()
                 elif request=='walk':
-                    freq = splited_command_str[2]
-                    radius = splited_command_str[3]
-                    height = splited_command_str[4]
-                    phase = splited_command_str[5]
+                    freq = int(splited_command_str[2])
+                    radius = int(splited_command_str[3])
+                    height = int(splited_command_str[4])
+                    phase = int(splited_command_str[5])
                     robot.walk( freq, radius, height, phase )
                 exec_command = True
         if exec_command==False:
