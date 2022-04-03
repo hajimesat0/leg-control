@@ -6,7 +6,7 @@
   * リンク機構のデバッグを目的とする
   * そのうちモーター換える
 
-## 4脚制御
+## 4脚制御(four_leg_control)
 
 * 1脚あたり2軸使って4脚を制御する
 * raspi-configコマンドのインストール
@@ -58,9 +58,20 @@ x(t) = r \cos \phi(t) \\
 y(t) = r \sin \phi(t) \\
 $$
 $$
-L(t) = \sqrt{ (h - y(t))^2 + x(t)^2} \\
-\theta(t) = acos( x(t) / L(t) ) \\
+l(t) = \sqrt{ (h - y(t))^2 + x(t)^2} \\
+\theta(t) = \arcsin( x(t) / l(t) ) \\
 $$
+
+
+## 備忘録
+
+### shell scriptの実行権限追加
+
+```sh
+chmod +x [対象のshファイル]
+```
+
+
 
 ## 参考
 
